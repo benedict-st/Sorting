@@ -8,7 +8,6 @@ export default function TableHeader({ onSort, selectedSort, columns, sortBy }) {
                 ...selectedSort,
                 order: selectedSort.order === "asc" ? "desc" : "asc"
             });
-            console.log("sortBy", sortBy);
         } else {
             onSort({ path: item, order: "asc" });
         }
