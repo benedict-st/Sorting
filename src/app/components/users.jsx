@@ -72,7 +72,6 @@ const Users = () => {
         };
 
         const handleSort = (item) => {
-            console.log(item);
             setSortBy(item);
         };
 
